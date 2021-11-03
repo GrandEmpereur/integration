@@ -78,6 +78,11 @@ header {
   margin-right: 20px;
 }
 
+.welcome {
+  background-image: url(../images/welcome/61842.png);
+  background: repeat-x repeat;
+}
+
 * {
   margin: 0;
   padding: 0;
