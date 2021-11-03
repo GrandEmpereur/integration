@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  background-image: url(./images/header/Headerback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.filtre {
+  background: linear-gradient(150deg, rgba(96, 160, 216, 0.5) 0%, rgba(178, 210, 52, 0.5) 100%);
+  position: relative;
+  z-index: 1;
+  width: 100vw;
+  height: 100%;
+}
+.filtre nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.filtre nav .logo {
+  position: relative;
+  top: 25px;
+  left: 40px;
+}
+.filtre nav .menu, .filtre nav ul, .filtre nav li {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.filtre nav .menu a, .filtre nav ul a, .filtre nav li a {
+  color: #fff;
+}
+.filtre nav .menu a:hover, .filtre nav ul a:hover, .filtre nav li a:hover {
+  border-bottom: #fff 2px solid;
+  padding-bottom: 5px;
+  transition: all 0.4s;
+}
+.filtre nav .menu span, .filtre nav ul span, .filtre nav li span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 160px;
+  height: 39px;
+}
+.filtre nav .menu span a, .filtre nav ul span a, .filtre nav li span a {
+  color: #B2D234;
+}
+.filtre .header-content {
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html, body {
+  font-family: "Poppins";
+  font-size: 16px;
+  max-width: 1366px;
+}
+
+/*# sourceMappingURL=style.css.map */
