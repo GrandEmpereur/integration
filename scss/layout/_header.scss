@@ -2,7 +2,7 @@ header{
     background-image: url(./images/header/Headerback.png);
     background-repeat: no-repeat;
     background-size: cover;
-height: 100vh;
+    height: 100vh;
 }
 
 .filtre{
@@ -30,6 +30,8 @@ height: 100vh;
 
             a {
                 color: #fff;
+                font-size: 18px;
+                font-weight: 300;
 
                 &:hover{
                     border-bottom: #fff 2px solid;
@@ -56,6 +58,35 @@ height: 100vh;
 
     .header-content{
         color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+
+        h1{
+            font-size: 126px;
+            font-weight: 500;
+        }
+
+        p{
+            font-size: 54px;
+            font-weight: italic;
+            transform: translateX(100px) translateY(-30px) rotate(-9deg);
+        }
+    }
+
+    .header-icon {
+        display: flex;
+        justify-content: flex-end ;
+        margin-right: 47px;
+        
+        a{
+            color: #fff;
+            font-size: 31px;
+            margin-right: 20px;
+        }
+        
     }
 
 }

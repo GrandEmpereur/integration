@@ -30,6 +30,8 @@ header {
 }
 .filtre nav .menu a, .filtre nav ul a, .filtre nav li a {
   color: #fff;
+  font-size: 18px;
+  font-weight: 300;
 }
 .filtre nav .menu a:hover, .filtre nav ul a:hover, .filtre nav li a:hover {
   border-bottom: #fff 2px solid;
@@ -50,6 +52,30 @@ header {
 }
 .filtre .header-content {
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.filtre .header-content h1 {
+  font-size: 126px;
+  font-weight: 500;
+}
+.filtre .header-content p {
+  font-size: 54px;
+  font-weight: italic;
+  transform: translateX(100px) translateY(-30px) rotate(-9deg);
+}
+.filtre .header-icon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 47px;
+}
+.filtre .header-icon a {
+  color: #fff;
+  font-size: 31px;
+  margin-right: 20px;
 }
 
 * {
@@ -62,8 +88,6 @@ header {
 
 html, body {
   font-family: "Poppins";
-  font-size: 16px;
-  max-width: 1366px;
 }
 
 /*# sourceMappingURL=style.css.map */
