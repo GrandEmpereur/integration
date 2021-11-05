@@ -10,7 +10,7 @@ header {
   background: linear-gradient(150deg, rgba(96, 160, 216, 0.5) 0%, rgba(178, 210, 52, 0.5) 100%);
   position: relative;
   z-index: 1;
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 .filtre nav {
@@ -78,9 +78,54 @@ header {
   margin-right: 20px;
 }
 
+.accroche {
+  background-image: url(images/accroche/Accroche.png);
+  height: 100%;
+  width: 100%;
+  background: no-repeat;
+}
+
 .welcome {
   background-image: url(../images/welcome/61842.png);
   background: repeat-x repeat;
+  display: flex;
+}
+.welcome .welcome-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 148px;
+}
+.welcome .welcome-content h2 {
+  color: #B2D234;
+  font-size: 52px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+.welcome .welcome-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.welcome span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 256px;
+  height: 61px;
+  border-radius: 8px;
+  background-color: #B2D234;
+  margin-top: 20px;
+}
+.welcome span a {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+}
+.welcome .welcome-img {
+  width: 80%;
+  height: 100%;
+  overflow-x: hidden;
 }
 
 * {
